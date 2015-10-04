@@ -1,0 +1,73 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scrollView1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#EBF4FA">
+<LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/imgToma"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        android:scaleType="centerCrop"
+        android:src="@drawable/toma"
+         />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.08" >
+
+        <TextView
+            android:id="@+id/tvName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="22dp"
+            android:text="Marjia Sultana Toma" />
+
+        <Button
+            android:id="@+id/btnPhone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvBlood"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="15dp"
+            android:text="01763676302" />
+
+        <TextView
+            android:id="@+id/tvCollege"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvName"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="18dp"
+            android:text="Govt. P.C. College,Bagerhat" />
+
+        <TextView
+            android:id="@+id/tvBlood"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvCollege"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="18dp"
+            android:text="Blood: O(+ve)" />
+
+        <Button
+            android:id="@+id/btnMail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/btnPhone"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="19dp"
+            android:text="mstoma11@gmail.com" />
+        
+    </RelativeLayout>
+
+</LinearLayout>
+</ScrollView>

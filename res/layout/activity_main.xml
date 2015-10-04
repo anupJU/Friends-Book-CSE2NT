@@ -1,0 +1,42 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#FFF8DC"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/btnFriendsDetails"
+        android:layout_width="234dp"
+        android:layout_height="99dp"
+        android:layout_gravity="center"
+        android:background="@drawable/ferrari_button"
+        android:text="Friends Details" />
+
+    <Button
+        android:id="@+id/btnTeachers"
+        android:layout_width="234dp"
+        android:layout_height="99dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/ferrari_button"
+        android:text="Our Teachers" />
+
+    <Button
+        android:id="@+id/btnMoments"
+        android:layout_width="234dp"
+        android:layout_height="99dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/ferrari_button"
+        android:text="Some Glorius Moments" />
+
+    <Button
+        android:id="@+id/btnJu"
+        android:layout_width="234dp"
+        android:layout_height="99dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/ferrari_button"
+        android:text="Beautiful JU" />
+
+</LinearLayout>
